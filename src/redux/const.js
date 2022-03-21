@@ -1,0 +1,6 @@
+export const CREATE_USER = 'create_user'
+export const GET_USER = 'get_user'
+export const GET_USER_FETCH = 'get_user_fetch'
+export const CREATE_USER_FETCH = 'get_user_fetch'
+export const SAY_HELLO = 'say_hello'
+export const SAY_HELLO_FETCH = 'say_hello_fetch'

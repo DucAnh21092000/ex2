@@ -1,0 +1,88 @@
+.App {
+  background-image: url("../../asset/image/banner1.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.body{
+  height: fit-content;
+}
+
+.text{
+  border: none;
+  padding: 20px 70px;
+  background: none;
+  color:white;
+  position: relative;
+}
+.text:focus{
+  outline: none;
+}
+.input-width{
+  width: 300px;
+  margin: 15px 0;
+}
+.border-bottom{
+  position: relative;
+}
+.border-bottom::after{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom:0;
+  content: "";
+  height: 1px;
+  background:white;
+}
+.icon{
+  position: absolute;
+  left: 10px;
+  top:10px;
+}
+.no-btn{
+  background: none;
+  border: none;
+}
+.no-btn a{
+  color:white;
+}
+.no-btn a:hover{
+  text-decoration: none;
+}
+
+.btn-submit{
+  background: rgba(255,51,102,1);
+  color: white;
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+}
+.login-form {
+  max-width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+}
+.ant-form-item-label > label{
+  color:white !important;
+}
+.ant-form-item-label label span{
+  color:white !important;
+}
+.drawer{
+  position: fixed;
+  left: -32px;
+  top:50%;
+  transform: rotate(90deg);
+}
