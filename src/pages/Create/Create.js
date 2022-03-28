@@ -104,6 +104,11 @@ const tailFormItemLayout = {
 
                     }
                 })
+            .catch( error => error.toJSON())
+                .then( error => {
+                    openNotification('topRight',error.message,'error')
+                })
+            
         };
 
     return (
